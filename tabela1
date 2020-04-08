@@ -1,40 +1,99 @@
-<div class="pricing pricing--sonam">
-	<div class="pricing__item">
-		<h3 class="pricing__title">Startup</h3>
-		<div class="pricing__price"><span class="pricing__currency">$</span>9.90</div>
-		<p class="pricing__sentence">Small business solution</p>
-		<ul class="pricing__feature-list">
-			<li class="pricing__feature">Unlimited calls</li>
-			<li class="pricing__feature">Free hosting</li>
-			<li class="pricing__feature">40MB of storage space</li>
-		</ul>
-		<button class="pricing__action">Choose plan</button>
-	</div>
-	<div class="pricing__item">
-		<h3 class="pricing__title">Standard</h3>
-		<div class="pricing__price"><span class="pricing__currency">$</span>29,90</div>
-		<p class="pricing__sentence">Medium business solution</p>
-		<ul class="pricing__feature-list">
-			<li class="pricing__feature">Unlimited calls</li>
-			<li class="pricing__feature">Free hosting</li>
-			<li class="pricing__feature">10 hours of support</li>
-			<li class="pricing__feature">Social media integration</li>
-			<li class="pricing__feature">1GB of storage space</li>
-		</ul>
-		<button class="pricing__action">Choose plan</button>
-	</div>
-	<div class="pricing__item">
-		<h3 class="pricing__title">Professional</h3>
-		<div class="pricing__price"><span class="pricing__currency">$</span>59,90</div>
-		<p class="pricing__sentence">Gigantic business solution</p>
-		<ul class="pricing__feature-list">
-			<li class="pricing__feature">Unlimited calls</li>
-			<li class="pricing__feature">Free hosting</li>
-			<li class="pricing__feature">Unlimited hours of support</li>
-			<li class="pricing__feature">Social media integration</li>
-			<li class="pricing__feature">Anaylitcs integration</li>
-			<li class="pricing__feature">Unlimited storage space</li>
-		</ul>
-		<button class="pricing__action">Choose plan</button>
-	</div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: #e71f9d;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: #9edcc9;
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #c8e5f3;
+  height: 300px; 
+}
+
+/
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: #ff9d3f;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <h5>#TOPO</h5>
+</header>
+
+<section>
+  <nav>
+    <ul>
+    <h1>#CONTEÚDO</h1>
+    </ul>
+  </nav>
+  
+  <article>
+    <p></p>
+    <h1>#MENU</h1>
+    <p></p>
+  </article>
+</section>
+
+<footer>
+  <p>#RODAPE</p>
+</footer>
+
+</body>
+</html>
